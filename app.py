@@ -15,7 +15,7 @@ load_dotenv()
 import os 
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'OpenAI API Key'
 # This is an LLMChain to create 10-20 multiple choice questions from a given piece of text.
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(model_name='gpt-3.5-turbo')
